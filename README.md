@@ -1,4 +1,4 @@
-# Sentient Trading Simulator #
+# Trading Simulator #
 ## AWS ec2 Preparation ##
 
 To the target AWS ec2 apply the following changes:
