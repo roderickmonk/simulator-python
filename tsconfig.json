@@ -1,0 +1,17 @@
+{
+  "extends": "../TypeScript.Projects/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./app",
+    "preserveConstEnums": true,
+    "rootDir": "Typescript",
+    "types": ["node"]
+  },
+  "include": ["Typescript/**/*.ts"],
+  "exclude": [
+    "Typescript/test.hold/",
+    "Typescript/HFT/Poloniex",
+    "node_modules/",
+    "node_modules/rxjs",
+    "**/*-spec.ts"
+  ]
+}
